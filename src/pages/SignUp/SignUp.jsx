@@ -63,7 +63,7 @@ const SignUp = () => {
                             Create Account
                         </button>
                     </form>
-                    <Link className="mt-10 block text-center underline text-green-500 hover:text-black transition-colors" to={"/login"}>Login with existing account</Link>
+                    <Link className="mt-10 block w-max mx-auto text-center underline text-green-500 hover:text-black transition-colors" to={"/login"}>Login with existing account</Link>
                 </div>
             </div>
         </>
