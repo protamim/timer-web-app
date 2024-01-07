@@ -55,8 +55,6 @@ const authInfo = {
     logOut
 }
 
-console.log(user)
-
 return (
         <AuthContext.Provider value={authInfo}>
                 {children}
