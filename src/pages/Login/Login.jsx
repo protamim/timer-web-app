@@ -9,7 +9,7 @@ const Login = () => {
 
   const onSubmit = (data) => {
     console.log(data);
-    // Destructure data
+    // Destructuring form data
     const {email, password} = data;
     // Sign In a user
     logIn(email, password).then((userCredential=> {
