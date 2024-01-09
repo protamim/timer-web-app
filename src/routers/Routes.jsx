@@ -6,6 +6,7 @@ import Login from "../pages/Login/Login";
 import DashLayout from "../layouts/DashLayout";
 import Dashboard from "../pages/Dashboard/Dashboard";
 import Projects from "../pages/Dashboard/Projects/Projects";
+import Timer from "../pages/Dashboard/Timer/Timer";
 
 const Routes = createBrowserRouter([
   // Main Routes
@@ -44,6 +45,10 @@ const Routes = createBrowserRouter([
       {
         path: "/dashboard/projects",
         element: <Projects />
+      },
+      {
+        path: "/dashboard/timer",
+        element: <Timer />
       }
     ]
   }

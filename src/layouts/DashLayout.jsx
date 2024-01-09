@@ -2,6 +2,7 @@ import { NavLink, Outlet } from "react-router-dom";
 import DashNav from "../shared/DashNav/DashNav";
 import { MdDashboard } from "react-icons/md";
 import { GoProject } from "react-icons/go";
+import { MdOutlineTimer } from "react-icons/md";
 import "../custom.css";
 
 const DashLayout = () => {
@@ -28,6 +29,12 @@ const DashLayout = () => {
                   <NavLink className="flex gap-3 items-center px-2 py-2 rounded-md hover:bg-green-500 transition-colors hover:text-white" to="/dashboard/projects" end>
                     <GoProject />
                     Projects
+                    </NavLink>
+                </li>
+                <li>
+                  <NavLink className="flex gap-3 items-center px-2 py-2 rounded-md hover:bg-green-500 transition-colors hover:text-white" to="/dashboard/timer" end>
+                    <MdOutlineTimer />
+                    Time Tracker
                     </NavLink>
                 </li>
               </ul>
